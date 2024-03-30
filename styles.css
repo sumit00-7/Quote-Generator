@@ -1,0 +1,47 @@
+body{
+    background-color: #bcc8ff;
+}
+
+.container{
+    background-color: white;
+    width: 700px;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    text-align: center;
+    box-shadow: 0 10px 20px ;
+}
+
+.quotediv{
+    text-align: center;
+}
+
+p{
+    font-size: 26px;
+    min-height: 110px;
+    margin-bottom: 0;
+}
+
+.newQuote{
+    border-radius: 20px;
+    padding: 2%;
+    background-color: #2973df;
+    border: none;
+    color: white;
+    position: relative;
+    left: 100px;
+}
+span{
+    position: absolute;
+    right: 20%;
+    top: 200px;
+    font-weight: bolder;
+}
+button.newQuote{
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+    cursor: pointer;
+}
