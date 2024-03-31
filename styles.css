@@ -30,18 +30,14 @@ p{
     background-color: #2973df;
     border: none;
     color: white;
-    position: relative;
-    left: 100px;
+    margin : 0 auto;
 }
 span{
-    position: absolute;
-    right: 20%;
-    top: 200px;
     font-weight: bolder;
+    display: block;
+    width: 100%;
+    text-align: right;
 }
 button.newQuote{
-    position: absolute;
-    bottom: 10%;
-    left: 45%;
     cursor: pointer;
 }
